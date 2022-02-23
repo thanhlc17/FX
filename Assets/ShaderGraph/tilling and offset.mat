@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Trail Shader w
-  m_Shader: {fileID: -6465566751694194690, guid: c4f4a264d42b1af4d8e6d68a4cbce7e5, type: 3}
+  m_Name: tilling and offset
+  m_Shader: {fileID: -6465566751694194690, guid: 63efb5ff3bae3424e87e9487684c5fdf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,8 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_cd839b09a81b4932b6d5f656b0eadae6:
-        m_Texture: {fileID: 2800000, guid: a26ed025042a33944b24ddcb59930e53, type: 3}
+    - Texture2D_bbff4aaee8e64565be3143ab80ae5497:
+        m_Texture: {fileID: 2800000, guid: 053d25e5a2d3d224ab0c894fbb0b3fed, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,10 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_a429f0b5ac744627bec9e642427339b5: 35
-    m_Colors:
-    - Color_c2ab1f6396d64724b59fbab361521e56: {r: 0.3813261, g: 0.75294244, b: 0.9734455, a: 0}
-    - Color_c2ab1f6396d64724b59fbab361521e56_1: {r: 0.39157256, g: 0.7454045, b: 0.9646866, a: 1}
-    - Vector2_0d7264d1ebd041f8a54331f2f584486a: {r: 0.32, g: 0, b: 0, a: 0}
-    - Vector2_988b213d457744869e6900d188d081b1: {r: -0.5, g: 0, b: 0, a: 0}
+    - Vector1_1: 0
+    - Vector1_9c9a1c88780f4d7bba8c7f81304506cc: 0.5
+    m_Colors: []
   m_BuildTextureStacks: []
