@@ -45,12 +45,12 @@ Material:
     - _BUILTIN_ZTest: 4
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
-    - _Cutout: 1
+    - _Cutout: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _Color_1: {r: 0.5471698, g: 0.39592186, b: 0.33294767, a: 0}
     - _Disolve_Tilling: {r: 1, g: 1, b: 0, a: 0}
-    - _FireColor: {r: 1, g: 0, b: 0, a: 0}
+    - _FireColor: {r: 0, g: 0, b: 0, a: 0}
     - _FireTilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6943708756623704137

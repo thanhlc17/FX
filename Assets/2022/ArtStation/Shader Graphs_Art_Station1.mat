@@ -59,11 +59,11 @@ Material:
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
     - _Cutout: 0
-    - _ScrollSpeedTxT: -0.85
-    - _ScrollSpeed_TxT_Dissolve: -0.8
+    - _ScrollSpeedTxT: -0.2
+    - _ScrollSpeed_TxT_Dissolve: -0.85
     - _Scrool_Speed_TxT: -0.85
     m_Colors:
     - _DissolveTxT_Tilling: {r: 1.7, g: 1, b: 0, a: 0}
     - _Tilling: {r: 1.7, g: 1, b: 0, a: 0}
-    - _Tilling_2: {r: 1.7, g: 1, b: 0, a: 0}
+    - _Tilling_2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
