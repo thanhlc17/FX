@@ -21,18 +21,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_Art_Station1
-  m_Shader: {fileID: -6465566751694194690, guid: 903f9f58a4bdaff49bc248fa55276d1f, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 2de442953d6d79c4a97ecf204ec3c69a, type: 3}
   m_ShaderKeywords: _BUILTIN_SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DisolveTxT:
+        m_Texture: {fileID: 2800000, guid: 30b26fb34aeefc442a412cf535ec3b7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Dissolve_TxT:
         m_Texture: {fileID: 2800000, guid: 30b26fb34aeefc442a412cf535ec3b7d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -45,11 +49,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: cd14038ca2d20654788ef07dbedec70b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _fireTexture:
+        m_Texture: {fileID: 2800000, guid: cd14038ca2d20654788ef07dbedec70b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_AlphaClip: 0
     - _BUILTIN_Blend: 0
-    - _BUILTIN_CullMode: 0
+    - _BUILTIN_CullMode: 2
     - _BUILTIN_DstBlend: 10
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
@@ -63,8 +71,13 @@ Material:
     - _ScrollSpeed_TxT_Dissolve: -0.85
     - _Scrool_Speed_TxT: -0.85
     m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_1: {r: 0.5471698, g: 0.39592186, b: 0.33294767, a: 0}
+    - _Disolve_Tilling: {r: 1, g: 1, b: 0, a: 0}
     - _DissolveStrength: {r: 0, g: 1, b: 0, a: 0}
     - _DissolveTxT_Tilling: {r: 1.7, g: 1, b: 0, a: 0}
+    - _FireColor: {r: 1, g: 0, b: 0, a: 0}
+    - _FireTilling: {r: 1, g: 1, b: 0, a: 0}
     - _Tilling: {r: 1.7, g: 1, b: 0, a: 0}
     - _Tilling_2: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
